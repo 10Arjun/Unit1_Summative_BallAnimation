@@ -1,6 +1,6 @@
 int AniScreen = 0;
 Ball[] ball;
-
+int[] lolx = {100, 250, 300, 400};
 
 void setup(){
  size(600, 600);
@@ -31,6 +31,9 @@ void AniScreen() {
   background(155, 0, 0);
   for( int i = 0; i < ball.length; i++){
     ball[i].display();
+  ellipse(lolx[0], 255, 255, 255);
+  ellipse(lolx[1], 255, 255, 255);
+
   }
   }
  
